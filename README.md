@@ -78,4 +78,19 @@ class Ejemplo {
 ```
 
 
+## tipos de clase
+
+* clases de dominio: es una clase que hace de todo, tiene campos y tiene funciones.
+* clase de modelo: es una clase que se refiere a datos, no se refiere a acciones.
+    * Model (en Laravel)
+* clase de servicio: es una clase que se refiere a acciones (o funciones), no se refiere a datos.
+   *  web service: es una clase de servicio que se conecta en la web.
+   * En laravel: Controller.
+
+## Concepto
+
+* OOP Programacion Orientada a objeto.
+* SRP Responsabilidad de Principio Simple.
+    * En vez de crear un codigo que haga de todo (por lo tanto, mas complicado), se crea varios codigos sencillos que hagan una funcion o solo una familia de funciones.
+* SOLID no necesitamos esto en PHP.
 

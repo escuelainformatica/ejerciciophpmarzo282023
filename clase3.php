@@ -32,3 +32,4 @@ echo $obj->calculoEnvio();
 echo "\n";
 $obj2=new Encomienda(3,4,5,"valdivia","santiago");
 echo $obj2->calculoEnvio();
+
